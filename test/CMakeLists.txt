@@ -1,2 +1,2 @@
-add_executable(test App.cpp)
-target_link_libraries(test engine)
+add_executable(app App.cpp)
+target_link_libraries(app engine)
