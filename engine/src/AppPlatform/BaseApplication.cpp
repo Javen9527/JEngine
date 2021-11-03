@@ -1,4 +1,4 @@
-#include "BaseApplication.h"
+#include "AppPlatform/BaseApplication.h"
 
 #include <stdio.h>
 

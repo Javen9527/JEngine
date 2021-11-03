@@ -4,8 +4,8 @@ set (CMAKE_CXX_STANDARD 11)
 
 project(Engine)
 
-include_directories("${PROJECT_SOURCE_DIR}/Framework/Common")
-include_directories("${PROJECT_SOURCE_DIR}/Framework/Interface")
+include_directories("${PROJECT_SOURCE_DIR}/engine/include")
+include_directories("${PROJECT_SOURCE_DIR}/engine/src")
 
-add_subdirectory (Framework)
-add_subdirectory (Client)
+add_subdirectory (engine)
+add_subdirectory (test)

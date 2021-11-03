@@ -1,5 +1,5 @@
 add_library(
-    Common
+    engine
 
     AppPlatform/BaseApplication.cpp
     Entry/main.cpp

@@ -1,4 +1,4 @@
-#include "IApplication.h"
+#include "AppPlatform/IApplication.h"
 
 extern Engine::IApplication* app;
 
